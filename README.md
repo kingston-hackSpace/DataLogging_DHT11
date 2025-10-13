@@ -1,2 +1,0 @@
-# DataLogging_DHT11
-
