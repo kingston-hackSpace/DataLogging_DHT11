@@ -65,3 +65,20 @@ Diagram reference image : [here](https://github.com/kingston-hackSpace/DataLoggi
 ----
 ### CODE AND INSTRUCTIONS
 
+- Download the following libraries:
+  
+    - [RTClib](https://github.com/kingston-hackSpace/DataLogging_DHT11/blob/main/Libraries/RTClib.zip)
+      
+    - [DHT](https://github.com/kingston-hackSpace/DataLogging_DHT11/blob/main/Libraries/DHT_sensor_library.zip)
+      
+    - [Adafruit_Sensor](https://github.com/kingston-hackSpace/DataLogging_DHT11/blob/main/Libraries/Adafruit_Unified_Sensor.zip)
+
+    - [Adafruit_BusIO](https://github.com/kingston-hackSpace/DataLogging_DHT11/blob/main/Libraries/Adafruit_BusIO.zip)
+ 
+- Once donwloaded, follow the installation instructions. In this case, we install via [Importing a .zip Library](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/)
+
+- Upload this code to your Arduino board.
+
+- Open Arduino's Serial Monitor to see the incoming data
+
+
