@@ -24,7 +24,6 @@ By the end of this tutorial, you will be able to record sensor readings over tim
 
 - SD Card module + micro SD Card
 
-- Power Bank 5V
   
 ----
 ### WIRING
@@ -77,8 +76,30 @@ Diagram reference image : [here](https://github.com/kingston-hackSpace/DataLoggi
  
 - Once donwloaded, follow the installation instructions. In this case, we install via [Importing a .zip Library](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/)
 
-- Upload this code to your Arduino board.
+- Download [this code](https://github.com/kingston-hackSpace/DataLogging_DHT11/blob/main/DataLogging_DHT11.ino)
 
-- Open Arduino's Serial Monitor to see the incoming data
+- Insert the SD card into the SD card module (if you haven’t done it already)
+
+- Plug The Arduino Board to your computer and upload the code
+
+
+**CONGRATULATIONS!** You have built an environmental sensor device that records data every 5
+seconds and saves it in .CSV format.
+
+
+----
+# WHAT TO DO NEXT?
+You can now modify the code to customise it according to your own ideas, goals, or project requirements. For example:
+
+ - Adjust the data logging interval (e.g. every 1 minute instead of every 5 seconds)
+ 
+ - Change the sensor output units (e.g. from Celsius to Fahrenheit)
+ 
+ - Modify RTC usage (e.g. log only the date, not the time)
+ 
+ - Alter LED behaviour
+ 
+ - Integrate additional sensors for more environmental data
+
 
 
