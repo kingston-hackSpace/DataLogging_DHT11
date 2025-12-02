@@ -29,6 +29,8 @@ By the end of this tutorial, you will be able to record sensor readings over tim
 ----
 ### WIRING
 
+Diagram reference image : [here](https://github.com/kingston-hackSpace/DataLogging_DHT11/blob/main/DataLogging_DHT11_bb.jpg)
+
 |Arduino |SD CARD Module |
 |------- |-------        |
 | GND    | GND           |
@@ -58,4 +60,8 @@ By the end of this tutorial, you will be able to record sensor readings over tim
 |-------------- |-------          |
 | GND           | LED (+) lead    |
 | pin 7         | resistor 220 ohms ---- LED (-) lead |
+
+
+----
+### CODE AND INSTRUCTIONS
 
